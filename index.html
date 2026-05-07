@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <title>Amazon</title>
+</head>
+<body class="font-sans">
+
+    
+    <!-- navbar -->
+    <header>
+        <div class="navbar flex bg-black text-white items-center justify-evenly h-16">
+
+            <div class="nav-logo w-[8%] h-16">
+                <div id="logo" class="w-full h-16 bg-contain bg-no-repeat bg-center" style="background-image: url('amazon-logo-cover.png');"></div>
+            </div>
+
+            <div class="nav-address">
+                <p class="add-first text-[#cccccc] text-sm ml-4">Deliver to</p>
+                <div class="add-icon flex items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec text-base ml-1">India</p>
+                </div>
+            </div>
+
+
+            <div class="nav-search flex items-center justify-evenly mx-1 h-12 w-[60%]">
+                    <select id="itype" class="text-sm h-10 w-[50px] rounded-l text-[#0f1111] bg-[#E6E6E6] pl-1 text-center">
+                        <option value="All">All</option>
+                        <option value="Electronic">Electronic</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="Books">Books</option>
+                        <option value="software">software</option>
+                        <option value="sports">sports</option>
+                    </select>
+                <input id="bar" class="h-10 w-full font-sm border-none text-black"  type="text" placeholder="Search Amazon">
+                <div class="sicon h-10 w-11 flex items-center justify-center bg-[#FF9900] rounded-r text-[#0f1111]">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+
+
+            <div class="lang flex items-center w-12 h-12">
+                <div class="licon mr-[1px] mb-[2px]">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p class="ltext" style="font-size: 0.85rem;">EN</p>
+            </div>
+
+
+
+            <div class="nav-acc flex flex-col justify-center w-[10%] h-[3.15rem]">
+                <p class="acc-first text-xs">Hello, Sign in</p>
+                <p class="acc-second text-sm font-bold">Account & Lists</p>
+            </div>
+
+
+
+            <div class="nav-order">
+                <p class="ret text-xs">Returns</p>
+                <p class="ord text-sm font-bold">& Orders</p>
+            </div>
+
+
+            
+            <div class="cart flex items-center justify-center text-center w-[5%] h-12">
+                <div class="cicon text-2xl">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <p class="ltext text-sm font-bold">Cart</p>
+            </div>            
+        </div>
+
+
+        <!-- navbar2 -->
+
+
+        <div class="navbar2 h-[2.75rem] bg-[#232f3e] flex ">
+            <div class="nav-all flex text-white h-[2.5rem] ml-[10px] mr-[5px] items-center ">
+                <i class="fa-solid fa-bars"></i>
+                <p class="all text-sm ml-[5px] ">All</p>
+            </div>
+            <div class="nav-text w-full h-10 flex items-center text-white">
+                <p class="text-sm mt-[5px] mb-[6px] py-2 px-[5px]">Today's Deals</p>
+                <p class="text-sm mt-[5px] mb-[6px] py-2 px-[5px]">Gift Cards</p>
+                <p class="text-sm mt-[5px] mb-[6px] py-2 px-[5px]">Sell</p>
+                <p class="text-sm mt-[5px] mb-[6px] py-2 px-[5px]">Registry</p>
+                <p class="text-sm mt-[5px] mb-[6px] py-2 px-[5px]">Prime Video</p>
+                <p class="text-sm mt-[5px] mb-[6px] py-2 px-[5px]">Customer Service</p>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    
+    <div class="hero-section flex justify-center items-end text-[#0f1111] bg-cover h-[60vh]" style="background-image: url('hero.jpg')">
+        <div class="hero-text h-10 w-[95%] flex justify-center items-center bg-[#f5f6f6] test-sm gap-[2px] mb-[25px]">
+            <p id="text">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#" id="link" class="text-[#0071e3] no-underline" >Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+
+
+
+    <!-- shop -->
+    <div class="shop-section flex justify-evenly bg-[#d8f3d7] flex-wrap">
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Electronics</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box1.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Fashion</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box2.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Home & Kitchen</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box3.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Beauty & Personal Care</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box4.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Sports & Fitness</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box5.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Gaming</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box6.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Books & Study</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box7.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box h-[400px] w-[23%] bg-white mt-[10px] mb-[10px] pt-5 pb-4">
+            <div class="box-content ml-[1rem] mr-[1rem]">
+                <h2>Toys & Kids</h2>
+                <div class="box-img h-[300px] bg-cover mt-[1rem] mb-[1rem]" style="background-image:url('box8.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="foot-panel1 h-10 text-white flex justify-center items-center bg-[#37475a] text-sm">
+                <p id="p1text">Back to top</p>
+            </div>
+
+            <div class="footer-panel2 flex bg-[#232f3e] justify-evenly text-white h-[300px]">
+                <ul mt-[15px]>
+                    <p>Get to Know Us</p>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Careers</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Blog</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">About Amazon</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Investor Relations</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Amazon Devices</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Amazon Science</a>
+                </ul>
+
+                <ul>
+                    <p>Make Money with Us</p>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Sell products on Amazon</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Sell on Amazon Business</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Sell apps on Amazon</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Become an Affiliate</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Advertise Your Products</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Self-Publish with Us</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Host an Amazon Hub</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">›See More Make Money with Us</a>
+                </ul>
+
+                <ul>
+                    <p>Amazon Payment Products</p>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Amazon Business Card</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Shop with Points</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Reload Your Balance</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Amazon Currency Converter</a>
+                </ul>
+
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Amazon and COVID-19</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Your Account</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Your Orders</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Shipping Rates & Policies</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Returns & Replacements</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Manage Your Content and Devices</a>
+                    <a class="text-sm mt-[10px] text-[#DDDDDD] block">Help</a>
+                </ul>
+            </div>
+
+            <div class="foot-panel4 flex justify-center items-center bg-[#232f3e] h-[70px] border-t border-white/50">
+                <div class="foot-logo w-[100px] bg-cover h-[50px]" style="background-image: url('images.jpg');"></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
